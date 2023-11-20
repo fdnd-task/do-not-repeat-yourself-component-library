@@ -70,7 +70,6 @@ De volgorde in javascript die we hanteren is:
 * Het event aangeven (aanklikken, hoveren)
 * Functies aangeven
 
-
 ### ESLint
 
 Om met javascript fouten snel te vinden, gebruiken we ESLint. Deze extentie geeft errors aan en highlight de code waar het misdreigd te gaan. Ook wijst die door naar ESLint's eigen documentatie voor verdere informatie.
