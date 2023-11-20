@@ -43,6 +43,10 @@ Om het inspringen van HTML zo netjes mogelijk maken, gebruiken we de extentie Pr
 In CSS hanteren we de meeste conventies. Omdat SvelteKit de mogelijkheid biedt om in de componenten scoped css te stoppen, proberen we zoveel mogelijk de selector aan te spreken. Als het niet anders kan, schrijven we een duidelijke naam. Bijvoorbeeld:
 
 ```css
+header nav ul li {
+    ...
+}
+
 #customView {
     ...
 }
