@@ -9,7 +9,6 @@
 ## Inleiding
 Om het samenwerken makkelijker te maken, gebruiken we code conventies. Zo komt onze code goed overeen. 
 
-
 ## Tech-stack
 Voor dit project maken we gebruik van het framework SvelteKit en het headless cms Hygraph. We kiezen hiervoor omdat onze opdrachtgever deze techstack wilt en omdat wij als studenten zijn begonnen met deze techstack.
 
@@ -35,6 +34,8 @@ In HTML schrijven we in semantische html om zo de toegankelijkheid. Zo vermijden
     </article>
 ```
 
+Voorbeelden van semantische html zijn: header, aside, main, footer, details, section etc.
+
 ### Prettier
 Om het inspringen van HTML zo netjes mogelijk maken, gebruiken we de extentie Prettier. Elk teamlid heeft deze extenstie 
 
@@ -49,7 +50,6 @@ In CSS hanteren we de meeste conventies. Omdat SvelteKit de mogelijkheid biedt o
 .grid-overview {
     ...
 }
-
 ```
 
 ### Custom properties
