@@ -1,2 +1,10 @@
-<h1>Welcome to SvelteKit</h1>
-<p>Visit <a href="https://kit.svelte.dev">kit.svelte.dev</a> to read the documentation</p>
+<script>
+    import CardOverview from "$lib/components/CardOverview.svelte"
+
+    export let data;
+
+    console.log(data)
+</script>
+
+<CardOverview {data} />
+
