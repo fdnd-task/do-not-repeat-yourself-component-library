@@ -15,7 +15,8 @@ In deze Readme is alle informatie te vinden voor de website die wij gaan maken a
 
 ### Desktop versie 
 
-<img width="534" alt="Scherm­afbeelding 2023-11-20 om 14 56 52" src="https://github.com/anoukbruinn/S16-DRY-INK-component-library/assets/112856687/99ec8fcb-d9ee-4182-82fd-02c656d593c3">
+<img width="534" alt="284287476-99ec8fcb-d9ee-4182-82fd-02c656d593c3" src="https://github.com/JalalToufik/INK-component-library/assets/94745953/d71372cc-ca2e-4788-bd35-0c087f5c1cee">
+
 
  ### WIKI 
 
