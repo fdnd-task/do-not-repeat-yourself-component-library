@@ -18,11 +18,11 @@ In deze Readme is alle informatie te vinden voor de website die wij gaan maken a
 
  ### WIKI 
 
-* [🌺 Analyseren](https://github.com/anoukbruinn/S16-DRY-INK-component-library/wiki/%F0%9F%8C%BA-Analyseren)
-* [🌺 Ontwerpen](https://github.com/anoukbruinn/S16-DRY-INK-component-library/wiki/%F0%9F%8C%BA-Analyseren)
-* [🌺 Bouwen](https://github.com/anoukbruinn/S16-DRY-INK-component-library/wiki/%F0%9F%8C%BA-Bouwen)
-* [🌺 Intergreren](https://github.com/anoukbruinn/S16-DRY-INK-component-library/wiki/%F0%9F%8C%BA-Intergreren)
-* [🌺 Testen](https://github.com/anoukbruinn/S16-DRY-INK-component-library/wiki/%F0%9F%8C%BA-Testen)
+* [🌺 Analyseren](https://github.com/anoukbruinn/INK-component-library/wiki/%F0%9F%8C%BA-Analyseren/)
+* [🌺 Ontwerpen](https://github.com/anoukbruinn/INK-component-library/wiki/%F0%9F%8C%BA-Ontwerpen/)
+* [🌺 Intergreren](https://github.com/anoukbruinn/INK-component-library/wiki/%F0%9F%8C%BA-Intergreren/)
+* [🌺 Bouwen](https://github.com/anoukbruinn/INK-component-library/wiki/%F0%9F%8C%BA-Bouwen/)
+* [🌺 Testen](https://github.com/anoukbruinn/INK-component-library/wiki/%F0%9F%8C%BA-Testen/)
 
 ## Kenmerken
 
