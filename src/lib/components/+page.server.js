@@ -4,16 +4,17 @@ import { hygraph } from '$lib/utils/hygraph.js';
 export async function load() {  
   let query = gql`
     query wishes {
-      wishes {
-        id
-        heading
-        description
-        date
-        label
-        image {
-          url
+        wishes {
+            uid
+            id
+            heading
+            label
+            image {
+              height
+              width
+              url
+            }
         }
-      }
     }
   `;
 

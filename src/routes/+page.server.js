@@ -12,6 +12,8 @@ export async function load() {
         label
         image {
           url
+          width
+          height
         }
       }
     }
