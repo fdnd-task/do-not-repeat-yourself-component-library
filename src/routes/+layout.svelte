@@ -1,11 +1,13 @@
 <script>
     import '../lib/style/fonts.css'
+    import Stats from '../lib/Molecules/Stats.svelte'
 </script>
 
 
 
 <main>
     <slot />
+    <Stats />
 </main>
 
 <style>
