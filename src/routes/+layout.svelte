@@ -1,14 +1,16 @@
 <script>
-    import '../lib/style/fonts.css'
-    import Stats from '../lib/Molecules/Stats.svelte'
+    import '../lib/style/fonts.css';
+    import { Header, Stats } from "../lib/index.js";
+
 </script>
 
+<Header />
+
+<Stats />
+
+<slot />
 
 
-<main>
-    <slot />
-    <Stats />
-</main>
 
 <style>
 
