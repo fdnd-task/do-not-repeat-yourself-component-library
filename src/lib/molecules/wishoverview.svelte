@@ -57,10 +57,6 @@
         padding: var(--unit-small);
     }
 
-    ul li a:is(:hover, :focus) h3 {
-        color: var(--color-blue);
-    }
-
     #custom-view {
         transition: var(--animation-default) ease-in-out;
     }
