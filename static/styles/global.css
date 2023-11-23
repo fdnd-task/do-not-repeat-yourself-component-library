@@ -59,6 +59,10 @@ a {
     color: unset;
 }
 
+a:is(:hover, :focus) h3 {
+    color: var(--color-blue);
+}
+
 button {
     background-color: unset;
     border: none;
