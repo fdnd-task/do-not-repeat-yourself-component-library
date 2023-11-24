@@ -70,8 +70,14 @@
 </div>
 </section>
 
-<style>
+<style scoped>
 .numbers {
+    
+    /* Dit heb ik Jalal ff tijdelijk toegepast */
+    position: absolute;
+    top: 90em;
+    /* */
+
     padding: 2em;
     color: white;
     font-family: 'Kirang Haerang';

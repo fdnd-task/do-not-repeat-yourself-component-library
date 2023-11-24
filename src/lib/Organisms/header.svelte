@@ -6,8 +6,6 @@
     <HeaderNav />
 </header>
 
-<style>
-    header {
-        height: 5em;
-    }
+<style scoped>
+
 </style>
