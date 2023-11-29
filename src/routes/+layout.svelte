@@ -25,7 +25,7 @@
 
         --Bg-Dark-Blue: #051A1A;
 
-        --Yellow-Primery: #FFDA1D;
+        --Yellow-Primary: #FFDA1D;
         --Blue-Secondary: #3DBAE1;
 
         --White: #FFFFFF;
@@ -49,7 +49,7 @@
         font-family: var(--Header-Font);
         font-size: 4em;
         padding: .5em;
-        color: var(--Yellow-Primery);
+        color: var(--Yellow-Primary);
     }
 
 </style>
