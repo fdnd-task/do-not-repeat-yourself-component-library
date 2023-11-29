@@ -1,5 +1,5 @@
 <script>
-
+    import { Stats, } from "../lib/index.js";
 </script>
 
 <svelte:head>
@@ -8,3 +8,4 @@
 
 
 
+<Stats />
