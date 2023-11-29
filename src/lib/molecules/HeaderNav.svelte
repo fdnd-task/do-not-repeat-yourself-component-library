@@ -1,6 +1,5 @@
 <script>
     import logo from '/assets/INK-logo.svg'
-    import arrow from '/assets/arrow.svg'
 </script>
 
 <nav>
