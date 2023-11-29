@@ -1,11 +1,10 @@
 <script>
     import '../lib/styles/fonts.css';
-    import { Header, Stats } from "../lib/index.js";
+    import { Header } from "../lib/index.js";
 
 </script>
 
 <Header />
-
 
 
 <slot />
