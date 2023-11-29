@@ -1,5 +1,5 @@
 <script>
-    import { Stats, MainHead, } from "../lib/index.js";
+    import { MainHead, MainAbout, Stats,  } from "../lib/index.js";
 </script>
 
 <svelte:head>
@@ -7,5 +7,5 @@
 </svelte:head>
 
 <MainHead />
-
+<MainAbout />
 <Stats />

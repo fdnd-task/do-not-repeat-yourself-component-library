@@ -3,7 +3,7 @@
     <div class="navigatie">
         <nav>
             <ul class="footer-navbar">
-                <li class="contact">MORE</li>
+                <li class="contact">More</li>
                 <div class="link-container">
                     <li><a href="/">Home</a></li>
                 </div>
@@ -16,66 +16,62 @@
             </ul>
         </nav>
     </div>
-
 </div>
 
 <style>
 
-@media only screen and (min-width: 768px) {
-		
-
+	@media only screen and (min-width: 768px) 
+	{
 		ul {
 			list-style-type: none;
 			margin: 0;
 			padding: 0;
+			text-transform: uppercase;
+			font-family: var(--Paragraph-Font);
 		}
 
-        a {
+		a {
 			text-decoration: none;
-			color: var(--justWhite);
-			font-family: var(--paragraph-font);
+			color: var(--White);
 			text-transform: uppercase;
 			font-size: 1em;
 			display: inline-block;
 			transition: 0.2s;
 		}
 
-        .link-container {
+		.link-container {
 			height: 2.5em;
 			width: 15em;
 			line-height: 1;
 			cursor: pointer;
 		}
 
-        .link-container:hover a {
+		.link-container:hover a {
 			font-size: 1.5rem;
 			line-height: 0.8;
-			color: var(--candelLight);
+			color: var(--Yellow-Primary);
 		}
 
-        .footer-container {
+		.footer-container {
 			display: inline-flex;
 			padding: 5em 6em 0em 6em;
 		}
 
 		.contact {
-			color: #ffffff;
+			color: var(--White);
 			font-size: 25px;
 			margin-bottom: 25px;
 			font-weight: 200;
 			margin-top: -2em;
-		}
+		}	
+	}
 
-		
-    }
-
-        @media only screen and (max-width: 600px) {
-		
+	@media only screen and (max-width: 600px) {
 
 		a {
 			text-decoration: none;
-			color: var(--justWhite);
-			font-family: var(--paragraph-font);
+			color: var(--White);
+			font-family: var(--Paragraph-Font);
 			text-transform: uppercase;
 			font-size: 1em;
 			display: inline-block;
@@ -88,13 +84,11 @@
 			padding: 0;
 		}
 
-        .link-container:hover a {
+		.link-container:hover a {
 			font-size: 1.5rem;
 			line-height: 0.8;
-			color: var(--candelLight);
+			color: var(--Yellow-Primary);
 		}
-
-      
 
 		.link-container {
 			display: flex;
@@ -104,6 +98,6 @@
 		.promise {
 			margin-bottom: 3rem;
 		}
-    }
+	}
 
-    </style>
+</style>

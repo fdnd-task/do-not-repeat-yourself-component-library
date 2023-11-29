@@ -7,10 +7,10 @@
 </script>
 
 <Header />
-<Footer />
-
 
 <slot />
+
+<Footer />
 
 <style>
 
@@ -33,6 +33,7 @@
         --Blue-Secondary: #3DBAE1;
 
         --White: #FFFFFF;
+        --Black: #000;
 
         --Apercu-Font: 'Apercu pro', sans-serif;
         --Paragraph-Font: 'Jubilat', serif;

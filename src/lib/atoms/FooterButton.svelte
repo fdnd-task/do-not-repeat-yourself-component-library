@@ -22,9 +22,9 @@
 
 .sponsor-button {
 			text-decoration: none;
-			background-color: var(--plantGreen);
-			color: var(--justWhite);
-			font-family: var(--copy-font);
+			background-color: var(--Yellow-Primary);
+			color: var(--Black);
+			font-family: var(--Apercu-Font);
 			font-weight: bold;
 			border: none;
 			border-radius: 3em;
@@ -35,15 +35,11 @@
 		}
 
 		.sponsor-button:hover {
-			background-color: var(--candelLight);
+			background-color: var(--White);
 		}
 
         #footer-sponsor-button {
 			font-weight: bold;
-		}
-
-		#footer-sponsor-button:hover {
-			color: var(--charcoal);
 		}
 
 		.sponsor-button:hover svg {
@@ -64,41 +60,14 @@
     @media only screen and (max-width: 600px) {
 
         .sponsor-button {
-			text-decoration: none;
-			background-color: var(--plantGreen);
-			color: var(--justWhite);
-			font-family: var(--copy-font);
-			font-weight: bold;
-			border: none;
-			border-radius: 3em;
-			padding: 1em 2em;
-			text-transform: uppercase;
-			transition: 0.2s;
-			cursor: pointer;
 			margin-bottom: 1em;
 			margin-top: 1em;
 			display: flex;
 			justify-content: center;
 		}
 
-		.sponsor-button:hover {
-			background-color: var(--candelLight);
-		}
-
         #footer-sponsor-button {
 			font-weight: bold;
-		}
-
-		#footer-sponsor-button:hover {
-			color: var(--charcoal);
-		}
-
-		.sponsor-button:hover svg {
-			transform: translateY(1px) translateX(3px);
-		}
-
-		.sponsor-button svg {
-			transform: translateY(1px);
 		}
 
         svg {

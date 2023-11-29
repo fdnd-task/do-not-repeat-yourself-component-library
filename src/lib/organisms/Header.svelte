@@ -10,5 +10,7 @@
 
 header{
     padding-bottom: 6.6em;
+    display: block;
+    margin-bottom: 2em;
 }
 </style>

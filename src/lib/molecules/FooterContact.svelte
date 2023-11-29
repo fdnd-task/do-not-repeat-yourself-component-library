@@ -12,104 +12,100 @@
 
 <style>
 
-@media only screen and (min-width: 768px) {
+	@media only screen and (min-width: 768px) {
 
-    .informatie {
-			margin-left: 9rem;
-			width: 15rem;
-			margin-top: 1.7em;
-		}
+		.informatie {
+				margin-left: 9rem;
+				width: 15rem;
+				margin-top: 1.7em;
+			}
 
-    .link-contact{
-			margin-bottom: 25px;
-		}
+		.link-contact{
+				margin-bottom: 25px;
+			}
 
-    .link-contact:hover a {
-			font-size: 1.5rem;
-			line-height: 0.8;
-			color: var(--candelLight);
-		}
-    
-    .contact-info a {
-			font-family: var(--copy-font);
-			font-size: 1em;
-			font-weight: 200;
-			line-height: 2em;
-			transition: 0.2s;
-			margin-bottom: 21px;
-		}
+		.link-contact:hover a {
+				font-size: 1.5rem;
+				line-height: 0.8;
+				color: var(--candelLight);
+			}
+		
+		.contact-info a {
+				font-family: var(--Apercu-Font);
+				font-size: 1em;
+				font-weight: 200;
+				line-height: 2em;
+				transition: 0.2s;
+				margin-bottom: 21px;
+			}
 
-	.contact-info a:hover {
-			color: var(--candelLight);
-		}
-	
-	a.tel {
-		color: white;
-	}
-
-	a {
-		text-decoration: none;
-			color: var(--justWhite);
-			font-family: var(--paragraph-font);
-			text-transform: uppercase;
-			font-size: 1em;
-			display: inline-block;
-			transition: 0.2s;
-	}
-
-	.contact {
-			color: #ffffff;
-			font-size: 25px;
-			margin-bottom: 25px;
-			font-weight: 200;
-		}
-	
-
- }
-
- @media only screen and (max-width: 600px) {
-
-    .contact {
-			color: #ffffff;
-			font-size: 25px;
-			margin-bottom: 25px;
-			font-weight: 200;
-			display: flex;
-			justify-content: center;
-		}
-    
-    .link-contact:hover a {
-			font-size: 1.5rem;
-			line-height: 0.8;
-			color: var(--candelLight);
-		}
-    .contact-info a {
-			font-family: var(--copy-font);
-			font-size: 1em;
-			font-weight: 200;
-			line-height: 1em;
-			transition: 0.2s;
-			
-			
-		}
-
-	.contact-info a:hover {
-			color: var(--candelLight);
-		}
-
-	.link-contact {
-			display: flex;
-			justify-content: center;
-			
-		}
-	
-	a.tel {
+		.contact-info a:hover {
+				color: var(--candelLight);
+			}
+		
+		a.tel {
 			color: white;
 		}
-	
-	
 
- }
+		a {
+			text-decoration: none;
+				color: var(--White);
+				font-family: var(--Paragraph-Font);
+				text-transform: uppercase;
+				font-size: 1em;
+				display: inline-block;
+				transition: 0.2s;
+		}
+
+		.contact {
+				font-family: var(--Paragraph-Font);
+				color: var(--White);
+				font-size: 25px;
+				margin-bottom: 25px;
+				font-weight: 200;
+			}
+	}
+
+	@media only screen and (max-width: 600px) {
+
+		.contact {
+				color: #ffffff;
+				font-size: 25px;
+				margin-bottom: 25px;
+				font-weight: 200;
+				display: flex;
+				justify-content: center;
+			}
+		
+		.link-contact:hover a {
+				font-size: 1.5rem;
+				line-height: 0.8;
+				color: var(--Yellow-Primary);
+			}
+		.contact-info a {
+				font-family: var(--Apercu-Font);
+				font-size: 1em;
+				font-weight: 200;
+				line-height: 1em;
+				transition: 0.2s;
+				
+				
+			}
+
+		.contact-info a:hover {
+				color: var(--Yellow-Primary);
+			}
+
+		.link-contact {
+				display: flex;
+				justify-content: center;
+				
+			}
+		
+		a.tel {
+				color: white;
+			}
+	}
 
 
 </style>
