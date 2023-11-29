@@ -1,12 +1,11 @@
 <script>
     import '../lib/styles/fonts.css';
-    import { Header, Stats } from "../lib/index.js";
+    import { Header } from "../lib/index.js";
 
 </script>
 
 <Header />
 
-<Stats />
 
 <slot />
 
@@ -39,7 +38,6 @@
         --top-nav-sponsor-button-hover-color: #051A1A;
     }
 
-
     :global(body) {
         background-color: var(--jungleDarkGreen);
         color: var(--justWhite);
@@ -47,6 +45,13 @@
         height: 100vh;
         overflow: hidden;
         overflow-y: scroll;
+    }
+
+    :global(h1){
+        font-family: var(--header-font);
+        font-size: 4em;
+        padding: .5em;
+        color: var(--candelLight);
     }
 
 </style>

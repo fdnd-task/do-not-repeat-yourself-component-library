@@ -12,3 +12,4 @@ export { default as Stats } from './molecules/Stats.svelte'
 // ========== Organisms ==========
 
 export { default as Header } from './organisms/Header.svelte'
+export { default as MainHead } from './organisms/MainHead.svelte'
