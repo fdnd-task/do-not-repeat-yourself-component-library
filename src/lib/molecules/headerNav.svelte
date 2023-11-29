@@ -31,8 +31,8 @@
 <style scoped>
 
     a {
-        color: var(--justWhite);
-        font-family: var(--Apercu-font);
+        color: var(--White);
+        font-family: var(--Apercu-Font);
         text-transform: uppercase ;
         font-size: 24px;
     }
@@ -50,7 +50,7 @@
     /* header */
 
     nav {
-        background-color: var(--charcoal);
+        background-color: var(--Bg-Dark-Blue);
         box-shadow: 1px 1px 4px 0 rgba(0,0,0,.1);
         position: fixed;
         width: 100%;
@@ -67,7 +67,7 @@
         padding: 0;
         list-style: none;
         overflow: hidden;
-        background-color: var(--charcoal);
+        background-color: var(--Bg-Dark-Blue);
     }
 
     nav li{
@@ -83,7 +83,7 @@
 
     nav li a:hover,
     nav .menu-btn:hover {
-        color: var(--candelLight);
+        color: var(--Yellow-Primary);
     }
 
     /* Button */
@@ -99,15 +99,15 @@
         border: none;
         border-radius: 3em;
         padding: 1em 2em;
-        background-color: var(--candelLight);
-        color: var(--charcoal);
+        background-color: var(--Yellow-Primary);
+        color: var(--Bg-Dark-Blue);
         font-weight: bold;
         transition: .2s ease-in-out;
     }
 
     .sponsor-button:hover{
-        background-color: var(--justWhite);
-        color: var(--charcoal);
+        background-color: var(--White);
+        color: var(--Bg-Dark-Blue);
     }
 
     /* menu */
@@ -132,13 +132,13 @@
         top: 1.3em;
         right: 1em;
         user-select: none;
-        background-color: var(--candelLight);
+        background-color: var(--Yellow-Primary);
         border-radius: 50%;
 
     }
 
     nav .menu-icon .navicon {
-        background: var(--charcoal);
+        background: var(--Bg-Dark-Blue);
         display: block;
         height: 3px;
         position: relative;
@@ -148,7 +148,7 @@
 
     nav .menu-icon .navicon:before,
     nav .menu-icon .navicon:after {
-        background: var(--charcoal);
+        background: var(--Bg-Dark-Blue);
         content: '';
         display: block;
         height: 100%;

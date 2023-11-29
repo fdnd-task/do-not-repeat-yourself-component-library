@@ -6,7 +6,6 @@
 
 <Header />
 
-
 <slot />
 
 <style>
@@ -23,24 +22,23 @@
     /* Color variable */
 
     :global(:root){
-        --charcoal: #051A1A;
-        --candelLight: #FFDA1D;
-        --justWhite: #FFFFFF;
-        --jungleDarkGreen: #0c2121;
-        --jungleGreen: #163A3A;
-        --plantGreen: #179446;
-        --pictonBlue: #3DBAE1;
-        --Apercu-font: 'Apercu pro', sans-serif;
-        --paragraph-font: 'Jubilat', serif;
-        --header-font: 'Kirang Haerang', sans-serif;
-        --link-hover-color: #FFDA1D;
-        --button-hover-color: #FFFFFF;
-        --top-nav-sponsor-button-hover-color: #051A1A;
+
+        --Bg-Dark-Blue: #051A1A;
+
+        --Yellow-Primery: #FFDA1D;
+        --Blue-Secondary: #3DBAE1;
+
+        --White: #FFFFFF;
+
+        --Apercu-Font: 'Apercu pro', sans-serif;
+        --Paragraph-Font: 'Jubilat', serif;
+        --Header-Font: 'Kirang Haerang', sans-serif;
+
     }
 
     :global(body) {
-        background-color: var(--jungleDarkGreen);
-        color: var(--justWhite);
+        background-color: var(--Bg-Dark-Blue);
+        color: var(--White);
         width: 100%;
         height: 100vh;
         overflow: hidden;
@@ -48,10 +46,10 @@
     }
 
     :global(h1){
-        font-family: var(--header-font);
+        font-family: var(--Header-Font);
         font-size: 4em;
         padding: .5em;
-        color: var(--candelLight);
+        color: var(--Yellow-Primery);
     }
 
 </style>

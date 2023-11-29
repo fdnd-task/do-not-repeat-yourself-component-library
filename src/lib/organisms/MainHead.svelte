@@ -66,7 +66,7 @@
 
     .hero-heading {
         font-weight: normal;
-        color: var(--justWhite);
+        color: var(--White);
     }
 
     .hero-title span {
@@ -100,7 +100,7 @@
     }
 
     .hero-title-legends {
-        color: var(--candelLight);
+        color: var(--Yellow-Primary);
     }
 
     .hero-title-legends span {
