@@ -67,7 +67,6 @@
         padding: 0;
         list-style: none;
         overflow: hidden;
-        background-color: var(--Bg-Dark-Blue);
     }
 
     nav li{

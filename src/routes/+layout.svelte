@@ -23,7 +23,7 @@
 
     :global(:root){
 
-        --Bg-Dark-Blue: #051A1A;
+        --Bg-Dark-Blue: #051d1d;
 
         --Yellow-Primary: #FFDA1D;
         --Blue-Secondary: #3DBAE1;
