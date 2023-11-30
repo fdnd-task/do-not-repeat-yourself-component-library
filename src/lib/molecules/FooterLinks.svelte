@@ -35,7 +35,6 @@
 			color: var(--White);
 			text-transform: uppercase;
 			font-size: 1em;
-			display: inline-block;
 			transition: 0.2s;
 		}
 
@@ -53,7 +52,7 @@
 		}
 
 		.footer-container {
-			display: inline-flex;
+		
 			padding: 5em 6em 0em 6em;
 		}
 
