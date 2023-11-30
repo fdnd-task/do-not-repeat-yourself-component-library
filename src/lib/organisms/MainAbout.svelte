@@ -106,10 +106,6 @@
 
     @media (min-width: 1500px){
 
-        .header-main{
-            margin: 5em;
-        }
-
         .intro-text {
             font-size: 2.5em;
         }
