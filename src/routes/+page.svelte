@@ -1,5 +1,5 @@
 <script>
-    import { MainHead, MainAbout, PlayerCarrousel, MainStats,  } from "../lib/index.js";
+    import { MainHead, MainAbout, PlayerCarrousel, MainStats, MainSponsor  } from "../lib/index.js";
     export let data
 </script>
 
@@ -9,4 +9,4 @@
 <MainAbout          data={data} />
 <PlayerCarrousel    data={data} />
 <MainStats          data={data} />
-
+<MainSponsor        data={data} />

@@ -35,6 +35,17 @@ export async function load() {
                 numberClubs
                 titleClubs
             }
+            becomeSponsor {
+                titleSponsor
+                subTextSponsor
+            }
+            ourStory {
+                titleStory
+                subTextStory
+                storyVideo {
+                url
+                }
+            }
             }
         }
     `
