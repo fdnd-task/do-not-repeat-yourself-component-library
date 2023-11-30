@@ -6,6 +6,7 @@ export { default as NavLogo } from './atoms/NavLogo.svelte'
 export { default as BtnPrimary } from './atoms/BtnPrimary.svelte'
 export { default as BtnSecondary } from './atoms/BtnSecondary.svelte'
 export { default as NavLink } from './atoms/NavLink.svelte'
+export { default as HeadTitle } from './atoms/HeadTitle.svelte'
 export { default as FooterButton } from './atoms/FooterButton.svelte'
 export { default as Socials } from './atoms/Socials.svelte'
 
