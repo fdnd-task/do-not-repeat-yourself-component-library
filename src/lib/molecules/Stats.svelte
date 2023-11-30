@@ -78,11 +78,10 @@
     }
 
     .numbers {
-        padding: 2em;
+        padding: 5em;
         color: white;
         font-family: 'Kirang Haerang';
         overflow: hidden;
-        height: 100vh;
     }
     
     .numbers-flex {

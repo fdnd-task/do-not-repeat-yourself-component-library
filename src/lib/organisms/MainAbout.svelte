@@ -1,17 +1,18 @@
 <script>
         import { BtnSecondary } from '$lib/index.js';
+        export let data;
 </script>
 
-<section class="intro-about">
-    <div class="intro">
-        <p class="intro-text">
-            We are dedicated to providing these children with a second chance in life,ensuring
-            they have access to education, shelter, nutrition, and an opportunity to pursue their dreams of
-            becomingtop football players.
-        </p>
-        <BtnSecondary href="/about" title="About Us " class="btn-About"> </BtnSecondary>
-    </div>
-</section>
+{#each data.homepages as homepage }
+    <section class="intro-about">
+        <div class="intro">
+            <p class="intro-text" > 
+                {homepage.mainIntroAboutUs.introTextAbout}
+            </p>
+            <BtnSecondary href="/about" title="About Us " class="btn-About"> </BtnSecondary>
+        </div>
+    </section>
+{/each}
 
 <style>
 
