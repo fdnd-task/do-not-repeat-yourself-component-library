@@ -82,8 +82,7 @@
     }
 
     .roll-container {
-        position: relative;
-        overflow: hidden;
+        height: 15em;
     }
 
     .roll-text {
@@ -111,6 +110,8 @@
         from { -webkit-transform: translateX(-100%); }
         to { -webkit-transform: translateX(100%); }
     }
+
+    
 
 
 </style>
