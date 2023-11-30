@@ -15,8 +15,10 @@
 	@media only screen and (min-width: 768px) {
 
 		.icons {
-			margin-left: 30em;
+			/* margin-left: 30em; */
 			width: 16rem;
+			float: right;
+			
 		}
 	}
 
