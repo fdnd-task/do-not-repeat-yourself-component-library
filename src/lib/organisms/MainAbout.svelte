@@ -1,3 +1,7 @@
+<script>
+    
+</script>
+
 <section class="intro-about">
     <div class="intro">
         <p class="intro-text">

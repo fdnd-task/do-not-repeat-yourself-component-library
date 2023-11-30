@@ -1,9 +1,6 @@
 <script>
     import '../lib/styles/fonts.css';
-    import { Header } from "../lib/index.js";
-    import {Footer} from "../lib/index.js";
-   
-
+    import { Header, Footer } from "../lib/index.js";
 </script>
 
 <Header />
