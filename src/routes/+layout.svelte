@@ -54,4 +54,8 @@
         color: var(--Yellow-Primary);
     }
 
+    :global(h2){
+        font-family: var( --Paragraph-Font);
+    }
+
 </style>

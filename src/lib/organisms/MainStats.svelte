@@ -31,7 +31,7 @@
     .text-area {
         display: flex;
         flex-direction: row;
-        align-items: flex-end;
+        align-items: flex-start;
         justify-content: space-between;
     }
 

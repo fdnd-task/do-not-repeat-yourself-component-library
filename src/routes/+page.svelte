@@ -1,5 +1,13 @@
 <script>
-    import { MainHead, MainAbout, PlayerCarrousel, MainStats, MainSponsor  } from "../lib/index.js";
+    import {  
+            MainHead, 
+            MainAbout, 
+            PlayerCarrousel, 
+            MainStats, 
+            MainSponsor, 
+            MainStory,  
+
+    } from "../lib/index.js";
     export let data
 </script>
 
@@ -10,3 +18,4 @@
 <PlayerCarrousel    data={data} />
 <MainStats          data={data} />
 <MainSponsor        data={data} />
+<MainStory          data={data} />

@@ -5,50 +5,51 @@ export async function load() {
     let query = gql`
         query HomeQuery {
             homepages {
-            introMain {
-                bgVideo {
-                url
+                introMain {
+                    bgVideo {
+                    url
+                    }
                 }
-            }
-            mainIntroAboutUs {
-                introTextAbout
-                aboutUsLink
-            }
-            playerCards {
-                title
-                subTitle
-                imgPlayer {
-                url
+                mainIntroAboutUs {
+                    introTextAbout
+                    aboutUsLink
                 }
-            }
-            growingNumbers {
-                titleNumbers
-                titleNumbers2
-                titleNumbers3
-                textNumbers
-                numberChilderenSaved
-                titleChilderSaved
-                numberTalents
-                titleTalents
-                numberPartners
-                titlePartners
-                numberClubs
-                titleClubs
-            }
-            becomeSponsor {
-                titleSponsor
-                subTextSponsor
-            }
-            ourStory {
-                titleStory
-                subTextStory
-                storyVideo {
-                url
+                playerCards {
+                    title
+                    subTitle
+                    imgPlayer {
+                        url
+                    }
                 }
-            }
+                growingNumbers {
+                    titleNumbers
+                    titleNumbers2
+                    titleNumbers3
+                    textNumbers
+                    numberChilderenSaved
+                    titleChilderSaved
+                    numberTalents
+                    titleTalents
+                    numberPartners
+                    titlePartners
+                    numberClubs
+                    titleClubs
+                }
+                becomeSponsor {
+                    titleSponsor
+                    subTextSponsor
+                }
+                ourStory {
+                    titleStory
+                    titleStory2
+                    titleStory3
+                    subTextStory
+                    storyVideo {
+                    url
+                    }
+                }
             }
         }
     `
-
     return await hygraph.request(query)
 }
