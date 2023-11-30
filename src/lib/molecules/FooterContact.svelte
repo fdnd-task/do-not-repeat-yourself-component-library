@@ -68,6 +68,17 @@
 
 	@media only screen and (max-width: 600px) {
 
+		a {
+			text-decoration: none;
+			color: var(--justWhite);
+			font-family: var(--paragraph-font);
+			text-transform: uppercase;
+			font-size: 1em;
+			display: inline-block;
+			transition: 0.2s;
+			margin-bottom: 5px;
+		}
+
 		.contact {
 				color: #ffffff;
 				font-size: 25px;
@@ -99,6 +110,7 @@
 		.link-contact {
 				display: flex;
 				justify-content: center;
+				margin-bottom: 25px;
 				
 			}
 		
