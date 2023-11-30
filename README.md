@@ -13,7 +13,7 @@ In deze Readme is alle informatie te vinden voor de website die wij gaan maken a
 * Framework Svelte & CMS Hygraph
 
 
- ### Wiki :
+ ## Wiki :
 
 * [ Analyseren](https://github.com/anoukbruinn/INK-component-library/wiki/%F0%9F%8C%BA-Analyseren/)
 * [ Ontwerpen](https://github.com/anoukbruinn/INK-component-library/wiki/%F0%9F%8C%BA-Ontwerpen/)
@@ -22,13 +22,13 @@ In deze Readme is alle informatie te vinden voor de website die wij gaan maken a
 * [ Testen](https://github.com/anoukbruinn/INK-component-library/wiki/%F0%9F%8C%BA-Testen/)
 
 
-#### Tools :
+## Tools :
 
 * VSCode
 * Miro
 * Figma
 
-#### Gebruikte technieken :
+## Gebruikte technieken :
 
 * Svelte
 * Sveltekit
@@ -36,7 +36,7 @@ In deze Readme is alle informatie te vinden voor de website die wij gaan maken a
 * JS
 * CSS
   
-#### Communicatie middelen :
+## Communicatie middelen :
 
 * Team Canvas
 * Microsoft Teams
