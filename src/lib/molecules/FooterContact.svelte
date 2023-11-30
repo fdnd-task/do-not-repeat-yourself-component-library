@@ -15,7 +15,7 @@
 	@media only screen and (min-width: 768px) {
 
 		.informatie {
-				margin-left: 9rem;
+				/* margin-left: 9rem; */
 				width: 15rem;
 				margin-top: 1.7em;
 			}
