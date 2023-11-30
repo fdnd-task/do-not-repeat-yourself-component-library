@@ -4,9 +4,9 @@
 
 <nav>
 
-    <NavLogo href="/"></NavLogo>
+    <NavLogo href="/" alt='Logo from INK'></NavLogo>
 
-    <input class="menu-btn" type="checkbox" id="menu-btn" />
+    <input class="menu-btn" type="checkbox" id="menu-btn" aria-label="Navigation menu" />
     <label class="menu-icon" for="menu-btn">
         <span class="navicon"></span>
     </label>

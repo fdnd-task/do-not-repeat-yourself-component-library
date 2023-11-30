@@ -55,7 +55,7 @@
 
     h2 {
         font-weight: 200;
-        line-height: 0.9em;
+        line-height: 1.3em;
         font-size: clamp(24px, 4.1vw, 60px);
         font-family: var(--Paragraph-Font);
     }
@@ -77,6 +77,23 @@
             display: flex;
             height: 75vw;
             width: 100vw;
+        }
+    }
+    
+    @media only screen and (max-width: 950px) {
+
+        section{
+            background-size: cover;
+            height: 90vh;
+        }
+    }
+
+    @media only screen and (max-width: 550px) {
+
+        section{
+            padding: 0 9vw;
+            background-size: cover;
+            height: 90vh;
         }
     }
 

@@ -34,6 +34,7 @@
 
     section{
         padding: 4em 6em 0 6em;
+        overflow: hidden;
     }
 
     .story-wrapper {
@@ -55,7 +56,6 @@
     .story-wrapper p{
         max-width: 35%;
         border-left: solid 1px var(--Yellow-Primary);
-        height: max-content;
         padding-left: 1%;
         font-family: var(--Apercu-Font);
     }
@@ -86,6 +86,7 @@
     }
 
     .roll-text {
+        width: 100vh;
         font-size: 6em;
         font-family: var(--Paragraph-Font);
         margin-bottom: 8em;
@@ -106,12 +107,54 @@
     }
 
     /* for Chrome */
-    @-webkit-keyframes my-animation {
+    @keyframes my-animation {
         from { -webkit-transform: translateX(-100%); }
         to { -webkit-transform: translateX(100%); }
     }
 
-    
+    @media only screen and (max-width: 900px) {
+        .roll-text {
+        font-size: 4em;
+        }
+
+        .roll-container {
+        height: 8em;
+    }
+    }
+
+    @media only screen and (max-width: 600px) {
+        
+        section {
+            padding: 2em;
+        }
+
+        h2 {
+            max-width: 100%;
+            font-size: 2.5em;
+        }
+
+        .story-wrapper{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+            align-items: flex-start;
+            margin-top: 20%;
+        }
+
+        .story-wrapper p{
+            max-width: 100%;
+            margin-left: 0;
+            margin-top: 10%;
+            max-width: 90%;
+            border: none;
+            padding-left: 0;
+        }
+
+        .roll-text {
+        font-size: 3em;
+        }
+    }
 
 
 </style>

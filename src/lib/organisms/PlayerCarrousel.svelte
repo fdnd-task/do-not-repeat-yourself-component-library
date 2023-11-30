@@ -5,13 +5,14 @@
 <!-- PLAYER CARDS -->
 
 <section class="playerCards">
-    {#each data.homepages as homepage }
-        <div class="playerHead">
-            <h2 class="legendsTitle">{homepage.playerCards.title} 
+
+    <div class="text-area">
+        {#each data.homepages as homepage }
+            <h2>{homepage.playerCards.title} 
                 <span>{homepage.playerCards.subTitle}</span>
             </h2>
-        </div>
-    {/each}
+        {/each}
+    </div>
 
     <ul>
         {#each data.homepages as homepage }
@@ -65,36 +66,39 @@
 
 <style>
 
-/* ============== PLAYER CARDS - SECTION START ============== */
+    /* ============== PLAYER CARDS - SECTION START ============== */
 
-.playerHead{
+    section{
+        width: 80vw;
+        margin: 0 auto;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .text-area {
         display: flex;
         flex-direction: row;
-        color: var(--White);
-        font-size: 2.5em;
-        font-weight: normal;
+        align-items: flex-start;
         justify-content: center;
-        overflow: hidden;
-        padding: 2em 0;
     }
 
-    .legendsTitle{
+    h2{
+        margin-bottom: 2em;
+        font-size: 3em;
+        color: var(--White);
         font-family: var( --Paragraph-Font);
-        display: flex;
-        flex-direction: row;
-        align-items: center;
     }
 
-    .legendsTitle span{
+    h2 span{
         padding-left: .2em;
         color: var(--Yellow-Primary);
     }
-
 
     .playerCards ul{
         display: flex;
         gap: .5em;
         padding: 0 2em ;
+        margin: 2em;
         overflow: hidden;
     }
     
@@ -119,6 +123,37 @@
         cursor: pointer;
         fill: var(--Yellow-Primary);
     }
+
+
+    @media only screen and (max-width: 700px) {
+
+        section{
+            width: 90vw;
+        }
+
+        h2 {
+            max-width: 100%;
+            font-size: 2.5em;
+        }
+
+        h2 span{
+            padding-left: 0.2em;
+        }
+    }
+
+    @media only screen and (max-width: 700px) {
+
+        section{
+            width: 90vw;
+        }
+
+        h2 {
+            max-width: 100%;
+            font-size: 2em;
+        }
+    }
+
+
 
 
 </style>

@@ -49,6 +49,24 @@
         line-height: 96%;
     }
 
+    @media only screen and (max-width: 550px) {
+
+        .intro{
+            padding: 0 9vw;
+            background-size: cover;
+            height: 80vh;
+        }
+    }
+
+    @media only screen and (max-width: 950px) {
+
+        section{
+            background-size: cover;
+            height: 100vh;
+        }
+    }
+
+
 
     @media (min-width: 600px){
 

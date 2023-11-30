@@ -8,7 +8,7 @@
     {#each data.homepages as homepage }
 
         <div class="text-area">
-            <h2 class="numbers-header">{homepage.growingNumbers.titleNumbers}  
+            <h2>{homepage.growingNumbers.titleNumbers}  
                 <span class="yellow">{homepage.growingNumbers.titleNumbers2}</span> 
                 <span>{homepage.growingNumbers.titleNumbers3}</span> 
             </h2>
@@ -35,7 +35,7 @@
         justify-content: space-between;
     }
 
-    .numbers-header {
+    h2 {
         max-width: 50%;
         font-size: 3em;
     }
@@ -67,7 +67,7 @@
             margin-top: 20%;
         }
 
-        .numbers-header {
+        h2 {
             max-width: 100%;
             font-size: 2.5em;
         }
