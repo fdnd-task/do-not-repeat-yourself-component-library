@@ -119,5 +119,14 @@
 			}
 	}
 
+	@media only screen and (max-width: 768px) {
 
+		a {
+	text-decoration: none;
+	color: var(--White);
+	text-transform: uppercase;
+	font-size: 1em;
+	transition: 0.2s;
+		}
+	}
 </style>
