@@ -54,6 +54,7 @@
 		.footer-container {
 		
 			padding: 5em 6em 0em 6em;
+			
 		}
 
 		.contact {
@@ -67,6 +68,13 @@
 
 	@media only screen and (max-width: 600px) {
 
+		.contact {
+			text-transform: uppercase;
+			display: flex;
+			justify-content: center;
+			margin-bottom: 25px;
+		}
+
 		a {
 			text-decoration: none;
 			color: var(--White);
@@ -75,6 +83,7 @@
 			font-size: 1em;
 			display: inline-block;
 			transition: 0.2s;
+			margin-bottom: 5px;
 		}
 
 		ul {
@@ -97,6 +106,33 @@
 		.promise {
 			margin-bottom: 3rem;
 		}
+
+		.footer-container {
+			color: #ffffff;
+				font-size: 25px;
+				margin-bottom: 25px;
+				font-weight: 200;
+				display: flex;
+				justify-content: center;
+		}
 	}
+
+	@media only screen and (max-width: 768px) {
+
+		a {
+			text-decoration: none;
+			color: var(--White);
+			text-transform: uppercase;
+			font-size: 1em;
+			transition: 0.2s;
+		}
+
+		.contact {
+			text-transform: uppercase;
+			margin-bottom: 5px;
+		}
+
+
+}
 
 </style>

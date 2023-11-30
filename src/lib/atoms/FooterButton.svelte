@@ -60,15 +60,27 @@
     @media only screen and (max-width: 600px) {
 
         .sponsor-button {
+			text-decoration: none;
+			background-color: var(--Yellow-Primary);
+			color: var(--justWhite);
+			font-family: var(--copy-font);
+			font-weight: bold;
+			border: none;
+			border-radius: 3em;
+			padding: 1em 2em;
+			text-transform: uppercase;
+			transition: 0.2s;
+			cursor: pointer;
 			margin-bottom: 1em;
 			margin-top: 1em;
 			display: flex;
 			justify-content: center;
+			padding-bottom: 1em;
+			
+			
 		}
 
-        #footer-sponsor-button {
-			font-weight: bold;
-		}
+       
 
         svg {
 			margin-left: 10px;
@@ -76,4 +88,26 @@
 
     }
 
+	@media only screen and (max-width: 768px) {
+
+		.sponsor-button {
+			text-decoration: none;
+			background-color: var(--Yellow-Primary);
+			color: var(--justWhite);
+			font-family: var(--copy-font);
+			font-weight: bold;
+			border: none;
+			border-radius: 3em;
+			padding: 1em 2em;
+			text-transform: uppercase;
+			transition: 0.2s;
+			cursor: pointer;
+			margin-bottom: 1em;
+			margin-top: 1em;
+			display: flex;
+			justify-content: center;
+			padding-bottom: 1em;
+
+	}
+	}
 </style>
