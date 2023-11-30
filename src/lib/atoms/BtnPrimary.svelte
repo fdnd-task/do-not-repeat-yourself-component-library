@@ -2,14 +2,14 @@
 	export let href, title;
 </script>
 
-    <a class="sponsor-button" {href}> 
+    <a {href}> 
         {title}
-        <span class="arrow"><span/>
+        <span><span/>
     </a>
 
 <style>
 
-    .sponsor-button{
+    a{
         display: inline-block;
         margin: 0 auto;
         border: none;
@@ -23,7 +23,7 @@
         transition: .2s ease-in-out;
     }
 
-    .sponsor-button:hover{
+    a:hover{
         background-color: var(--White);
         color: var(--Bg-Dark-Blue);
     }
@@ -32,7 +32,7 @@
 
     @media (min-width: 48em) {
 
-        .arrow{
+        span{
             background-image: url(/assets/arrow.svg);
             background-repeat: no-repeat;
             width: 28px;
@@ -43,7 +43,7 @@
             right: 62px;
         }
 
-        .sponsor-button:hover .arrow{
+        a span{
             right: 56px;
         }
 

@@ -1,5 +1,5 @@
 <script>
-    import { NavLogo, NavLink, SponsorBtn } from '$lib/index.js';
+    import { NavLogo, NavLink, BtnPrimary } from '$lib/index.js';
 </script>
 
 <nav>
@@ -19,7 +19,7 @@
             <NavLink href="/promise" title="Promise"></NavLink>
         </li>
         <li>
-            <SponsorBtn href="/becomeSponsor" title="Become sponsor"></SponsorBtn>
+            <BtnPrimary href="/becomeSponsor" title="Become sponsor"></BtnPrimary>
         </li>
     </ul>
 
