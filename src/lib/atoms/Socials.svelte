@@ -120,8 +120,11 @@
 @media only screen and (max-width: 768px) {
     .social-icons {
 			display: flex;
-			justify-content: space-between;
+			/* justify-content: space-between; */
 			
 		}
-}
+
+       
+    }
+       
     </style>

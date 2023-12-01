@@ -63,7 +63,7 @@
 			text-decoration: none;
 			background-color: var(--Yellow-Primary);
 			color: var(--justWhite);
-			font-family: var(--copy-font);
+			font-family: var(--Apercu-Font);
 			font-weight: bold;
 			border: none;
 			border-radius: 3em;
@@ -76,6 +76,7 @@
 			display: flex;
 			justify-content: center;
 			padding-bottom: 1em;
+			
 			
 			
 		}
@@ -93,9 +94,10 @@
 		.sponsor-button {
 			text-decoration: none;
 			background-color: var(--Yellow-Primary);
-			color: var(--justWhite);
-			font-family: var(--copy-font);
+			color: var(--Black);
+			align-items: baseline;
 			font-weight: bold;
+			font-family: var(--Apercu-Font);
 			border: none;
 			border-radius: 3em;
 			padding: 1em 2em;
@@ -107,6 +109,8 @@
 			display: flex;
 			justify-content: center;
 			padding-bottom: 1em;
+			width: 20em;
+			
 
 	}
 	}

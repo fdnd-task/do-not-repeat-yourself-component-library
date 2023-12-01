@@ -29,7 +29,7 @@
 
 @media only screen and (max-width: 768px) {
 	footer{
-		display: flex;
+		/* display: flex; */
 		justify-content: space-between;
 	}
 }
