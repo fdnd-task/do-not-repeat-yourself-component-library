@@ -1,50 +1,32 @@
 <script>
-    import logo from '/assets/INK-logo.svg'
+    import { NavLogo, NavLink, BtnPrimary } from '$lib/index.js';
 </script>
 
 <nav>
-    <a href="/">
-        <img class="logo" src={logo} alt="The INk logo" />
-    </a>
-    <input class="menu-btn" type="checkbox" id="menu-btn" />
+
+    <NavLogo href="/" alt='Logo from INK'></NavLogo>
+
+    <input class="menu-btn" type="checkbox" id="menu-btn" aria-label="Navigation menu" />
     <label class="menu-icon" for="menu-btn">
         <span class="navicon"></span>
     </label>
-    <ul class="menu">
+
+    <ul>
         <li>
-            <a href="/about">About</a>
+            <NavLink href="/about" title="About"></NavLink>
         </li>
         <li>
-            <a href="/promise">Promise</a>
+            <NavLink href="/promise" title="Promise"></NavLink>
         </li>
         <li>
-            <a href="/becomeSponsor" class="sponsor-button">
-                Become a Sponsor
-                <span class="arrow"><span/>
-            </a>
+            <BtnPrimary href="/becomeSponsor" title="Become sponsor"></BtnPrimary>
         </li>
     </ul>
+
 </nav>
 
 
-<style scoped>
-
-    a {
-        color: var(--White);
-        font-family: var(--Apercu-Font);
-        text-transform: uppercase ;
-        font-size: 24px;
-    }
-
-    .logo{
-        height: 3.5em;
-        width:  3.5em;
-        padding: .4em;
-    }
-
-    .logo:hover{
-        scale: 1.1;
-    }
+<style>
 
     /* header */
 
@@ -57,66 +39,29 @@
         padding: 0 1em;
     }
 
-    nav > a{
-        display: inline-block;
-    }
-
     nav ul {
         margin: 0;
         padding: 0;
         list-style: none;
         overflow: hidden;
+
+        clear: both;
+        max-height: 0;
+        transition: max-height .2s ease-out;
     }
 
     nav li{
         padding: 2em 0;
+        display: flex;
+        justify-content: center;
     }
-
-    nav li a {
-        display: block;
-        padding: 20px 20px;
-        text-decoration: none;
-        text-align: center;
-    }
-
-    nav li a:hover,
-    nav .menu-btn:hover {
-        color: var(--Yellow-Primary);
-    }
-
-    /* Button */
 
     nav li:nth-last-child(1){
         display: flex;
         justify-content: center;
     }
 
-    .sponsor-button{
-        display: inline-block;
-        margin: 0 auto;
-        border: none;
-        border-radius: 3em;
-        padding: 1em 2em;
-        background-color: var(--Yellow-Primary);
-        color: var(--Bg-Dark-Blue);
-        font-weight: bold;
-        transition: .2s ease-in-out;
-    }
-
-    .sponsor-button:hover{
-        background-color: var(--White);
-        color: var(--Bg-Dark-Blue);
-    }
-
-    /* menu */
-
-    nav .menu {
-        clear: both;
-        max-height: 0;
-        transition: max-height .2s ease-out;
-    }
-
-    /* menu icon */
+    /* Hamburger Menu */
 
     nav .menu-icon {
         cursor: pointer;
@@ -132,7 +77,6 @@
         user-select: none;
         background-color: var(--Yellow-Primary);
         border-radius: 50%;
-
     }
 
     nav .menu-icon .navicon {
@@ -169,7 +113,7 @@
         display: none;
     }
 
-    nav .menu-btn:checked ~ .menu {
+    nav .menu-btn:checked ~ ul {
         max-height: 60em;
     }
 
@@ -198,39 +142,18 @@
             display: flex;
             align-items: center;
             padding: 0 3em;
+            clear: none;
+            float: right;
+            max-height: none;
         }
 
         nav li {
             float: left;
             padding: 1em 0;
         }
-        nav li a {
-            padding: 20px 30px;
-            font-size: 1em;
 
-        }
-        nav .menu {
-            clear: none;
-            float: right;
-            max-height: none;
-        }
         nav .menu-icon {
             display: none;
-        }
-
-        .arrow{
-            background-image: url(/assets/arrow.svg);
-            background-repeat: no-repeat;
-            width: 28px;
-            height: 28px;
-            display: block;
-            position: absolute;
-            top: 40px;
-            right: 62px;
-        }
-
-        .sponsor-button:hover .arrow{
-            right: 56px;
         }
 
     }

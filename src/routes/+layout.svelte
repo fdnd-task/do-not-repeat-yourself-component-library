@@ -1,9 +1,6 @@
 <script>
     import '../lib/styles/fonts.css';
-    import { Header } from "../lib/index.js";
-    import {Footer} from "../lib/index.js";
-   
-
+    import { Header, Footer } from "../lib/index.js";
 </script>
 
 <Header />
@@ -55,6 +52,10 @@
         font-size: 4em;
         padding: .5em;
         color: var(--Yellow-Primary);
+    }
+
+    :global(h2){
+        font-family: var( --Paragraph-Font);
     }
 
 </style>

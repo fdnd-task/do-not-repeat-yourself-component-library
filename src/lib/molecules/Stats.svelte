@@ -78,11 +78,10 @@
     }
 
     .numbers {
-        padding: 2em;
+        padding: 5em;
         color: white;
         font-family: 'Kirang Haerang';
         overflow: hidden;
-        height: 100vh;
     }
     
     .numbers-flex {
@@ -99,8 +98,8 @@
     }
     
     .numbers-wrapper {
-        max-height: 100%;
-        max-width: 100%;
+        max-height: 65%;
+        max-width: 65%;
         display: grid;
         grid-column-gap: 0px;
         grid-row-gap: 0px;
@@ -348,6 +347,12 @@
     }
     
     @media only screen and (min-width: 560px) {
+            
+        .numbers-wrapper {
+            max-height: 100%;
+            max-width: 100%;
+        }
+
         .children-saved svg,
         .talents-discovered svg,
         .new-partners svg,
