@@ -1,9 +1,6 @@
 <!-- FormFields.svelte -->
 <script>
-    import FormLabel from "$lib/components/atoms/FormLabel.svelte";
-    import FormInput from "$lib/components/atoms/FormInput.svelte";
-    import FormSelect from "$lib/components/atoms/FormSelect.svelte";
-    import ErrorMessages from "$lib/components/molecules/ErrorMessages.svelte";
+    import { FormLabel, FormInput, FormSelect, ErrorMessages } from '$lib/index.js';
    </script>
    
    <fieldset>
@@ -31,7 +28,3 @@
    </div>
    
    <ErrorMessages />
-
-   <style>
-    
-   </style>
