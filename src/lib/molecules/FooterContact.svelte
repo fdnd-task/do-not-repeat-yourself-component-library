@@ -24,24 +24,17 @@
 				margin-bottom: 25px;
 			}
 
-		.link-contact:hover a {
-				font-size: 1.5rem;
-				line-height: 0.8;
-				color: var(--candelLight);
-			}
+		
 		
 		.contact-info a {
 				font-family: var(--Apercu-Font);
 				font-size: 1em;
 				font-weight: 200;
-				line-height: 2em;
 				transition: 0.2s;
-				margin-bottom: 21px;
+
 			}
 
-		.contact-info a:hover {
-				color: var(--candelLight);
-			}
+		
 		
 		a.tel {
 			color: white;
@@ -71,7 +64,7 @@
 		a {
 			text-decoration: none;
 			color: var(--justWhite);
-			font-family: var(--paragraph-font);
+			font-family: var(--Paragraph-Font);
 			text-transform: uppercase;
 			font-size: 1em;
 			display: inline-block;
@@ -88,11 +81,7 @@
 				justify-content: center;
 			}
 		
-		.link-contact:hover a {
-				font-size: 1.5rem;
-				line-height: 0.8;
-				color: var(--Yellow-Primary);
-			}
+		
 		.contact-info a {
 				font-family: var(--Apercu-Font);
 				font-size: 1em;
@@ -103,9 +92,7 @@
 				
 			}
 
-		.contact-info a:hover {
-				color: var(--Yellow-Primary);
-			}
+		
 
 		.link-contact {
 				display: flex;
