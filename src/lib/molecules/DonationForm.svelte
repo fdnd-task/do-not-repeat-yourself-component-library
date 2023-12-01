@@ -1,8 +1,6 @@
 <!-- DonationForm.svelte -->
 <script>
-    import FormTitle from "$lib/components/atoms/FormTitle.svelte";
-    import FormFields from "$lib/components/molecules/FormFields.svelte";
-    import FormButton from "$lib/components/atoms/FormButton.svelte";
+import { FormTitle, FormFields, FormButton } from '$lib/index.js';
    </script>
    
    <form class="donation-form">

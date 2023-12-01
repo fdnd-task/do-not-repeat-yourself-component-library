@@ -1,13 +1,11 @@
-<script>
-    import Header from "$lib/components/Header.svelte";
-    import Footer from "$lib/components/Footer.svelte";
-    import DonationForm from "$lib/components/DonationForm.svelte";
-   </script>
-   
-   <Header />
-   
-   <main>
-    <DonationForm />
-   </main>
-   
-   <Footer />
+<script>     
+    import {  
+        DonationForm,
+        FormField,
+    } from "../lib/index.js";
+</script>
+
+<svelte:head> <title>INK - Sponsor</title> </svelte:head>
+
+<DonationForm />
+<FormField />
